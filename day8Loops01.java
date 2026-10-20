@@ -1,3 +1,32 @@
+#code
+    import java.util.*;
+
+public class Loops02 {
+    public static void main(String args[]) {
+
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+
+        int sum = 0;
+
+        for (int i = 0; i <= n; i++) {
+            sum = sum + i;
+        }
+
+        System.out.println("Sum = " + sum);
+        sc.close();
+    }
+}
+
+
+
+# OUTPUT:
+
+# Input: 20
+# Sum = 210
+
+
+    
 # JAVA FOR LOOP — STEP-BY-STEP EXPLANATION
 
 // ============================================
