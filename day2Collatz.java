@@ -16,4 +16,4 @@ public class day2Collatz {
 
         System.out.println(1);
     }
-}
+} 
